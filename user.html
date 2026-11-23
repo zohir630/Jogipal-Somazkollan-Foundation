@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>যোগীপাল সমাজকল্যাণ ফাউন্ডেশন | Jogipal Somazkollan Foundation</title>
+<meta name="description" content="Jogipal Somazkollan Foundation — শিক্ষা, স্বাস্থ্য ও মানবিক সেবায় আপনার বিশ্বস্ত সহযোগী।">
+<link rel="icon" href="user-logo.png">
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--g:#0f4c3a;--g2:#176b50;--m:#eaf4ee;--bg:#f6faf7;--t:#10261e;--mu:#5d7168;--y:#f5c84b;--ln:#e0ebe4}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Hind Siliguri',system-ui,sans-serif;color:var(--t);background:#fff;line-height:1.55}
+.w{max-width:1120px;margin:auto;padding:0 18px}
+a{color:inherit}
+header{position:sticky;top:0;z-index:30;background:rgba(255,255,255,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--ln)}
+.hd{display:flex;align-items:center;justify-content:space-between;height:70px;gap:12px}
+.brand{display:flex;gap:11px;align-items:center;text-decoration:none}
+.lg{width:48px;height:48px;border-radius:50%;background:var(--g);flex:none;overflow:hidden}
+.lg img{width:100%;height:100%;display:block}
+.brand b{display:block;font-size:23px;color:var(--g);line-height:1.1;font-weight:700}
+.brand small{font-size:12px;color:var(--g2);font-weight:600}
+nav.dk{display:none;gap:22px}
+nav.dk a{text-decoration:none;font-weight:500;color:var(--mu)}
+nav.dk a:hover{color:var(--g)}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--g);color:#fff;border:0;padding:11px 20px;border-radius:12px;font-family:inherit;font-weight:600;font-size:15px;cursor:pointer;text-decoration:none;transition:.2s}
+.btn:hover{background:var(--g2);transform:translateY(-1px)}
+.btn.y{background:var(--y);color:#2a2200}
+.hero{background:linear-gradient(105deg,rgba(7,38,29,.92),rgba(15,76,58,.7)),var(--hi,none) center/cover,var(--g);color:#fff;padding:64px 0 54px}
+.chip{display:inline-block;border:1px solid rgba(255,255,255,.4);padding:5px 15px;border-radius:99px;font-size:14px;margin-bottom:18px}
+.hero h1{font-size:clamp(36px,7vw,66px);line-height:1.18;font-weight:700}
+.hero h1 span{color:var(--y);display:block}
+.hero p{font-size:clamp(16px,2.4vw,20px);margin:14px 0 26px;max-width:560px;opacity:.92}
+.sb{display:flex;background:#fff;border-radius:14px;padding:7px;max-width:620px;box-shadow:0 12px 34px rgba(0,0,0,.25)}
+.sb input{flex:1;border:0;outline:0;padding:0 14px;font:inherit;font-size:16px;min-width:0;color:var(--t)}
+.nb{display:flex;align-items:center;gap:12px;background:var(--m);border:1px solid #cfe3d6;border-radius:12px;padding:10px 14px;margin:22px 0;font-size:15px;cursor:pointer}
+.nb b{background:var(--g);color:#fff;padding:2px 12px;border-radius:8px;white-space:nowrap}
+section{padding:46px 0}
+.eb{color:var(--g2);font-weight:600;font-size:14px;display:flex;align-items:center;gap:8px}
+.eb:before{content:"";width:24px;height:2px;background:var(--y)}
+h2{font-size:clamp(26px,4vw,36px);color:var(--g);margin-bottom:22px;font-weight:700}
+.sg{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.card{background:#fff;border:1px solid var(--ln);border-radius:18px;padding:18px 8px;text-align:center;transition:.25s}
+.card:hover{transform:translateY(-4px);box-shadow:0 14px 30px rgba(15,76,58,.12)}
+.ic{width:56px;height:56px;border-radius:16px;display:grid;place-items:center;font-size:27px;margin:0 auto 10px}
+.card b{display:block;font-size:17px}
+.card small{color:var(--mu);font-size:13px}
+.alt{background:var(--bg)}
+.pg{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+.pc{background:#fff;border:1px solid var(--ln);border-radius:18px;overflow:hidden;cursor:pointer;transition:.25s}
+.pc:hover{box-shadow:0 14px 30px rgba(15,76,58,.12);transform:translateY(-3px)}
+.pi{height:170px;background:linear-gradient(135deg,var(--g),#3f9c78) center/cover}
+.pc div.b{padding:14px 16px 18px}
+.pc small{color:var(--mu)}
+.pc h3{font-size:19px;margin-top:2px}
+.nl{background:#fff;border:1px solid var(--ln);border-radius:18px;padding:6px 16px}
+.nt{display:flex;align-items:center;gap:14px;padding:14px 0;border-bottom:1px solid var(--ln);cursor:pointer}
+.nt:last-child{border:0}
+.nt i{width:42px;height:42px;border-radius:12px;background:var(--m);display:grid;place-items:center;font-style:normal;flex:none}
+.nt small{color:var(--mu);display:block}
+.nt b{font-size:18px;flex:1}
+.cta{background:#e6f1e2;border-radius:22px;padding:30px 24px}
+.cta h3{font-size:clamp(24px,4vw,32px);color:var(--g);margin:6px 0}
+.cta p{color:var(--mu);margin-bottom:16px}
+form{display:grid;gap:12px;max-width:640px}
+.fg{display:grid;gap:12px}
+input,select,textarea{width:100%;font:inherit;padding:12px 14px;border:1px solid #cddbd2;border-radius:12px;background:#fff;outline:0}
+input:focus,select:focus,textarea:focus{border-color:var(--g2);box-shadow:0 0 0 3px rgba(23,107,80,.15)}
+footer{background:var(--g);color:#e4f1ea;padding:40px 0 22px}
+.fgd{display:grid;gap:24px}
+footer h4{color:#fff;font-size:18px;margin-bottom:8px}
+footer p{margin:4px 0;opacity:.9}
+.cp{border-top:1px solid rgba(255,255,255,.15);margin-top:26px;padding-top:14px;font-size:13px;opacity:.75;text-align:center}
+.md{position:fixed;inset:0;background:rgba(0,0,0,.5);display:none;place-items:center;z-index:50;padding:18px}
+.md.on{display:grid}
+.mb{background:#fff;border-radius:20px;padding:24px;max-width:520px;width:100%;max-height:85vh;overflow:auto}
+.mb h3{color:var(--g);margin:2px 0 10px;font-size:24px}
+.mb p{white-space:pre-line;color:#33463d}
+.ts{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:var(--g);color:#fff;padding:12px 22px;border-radius:12px;z-index:60;display:none}
+@media(min-width:760px){nav.dk{display:flex}.sg{grid-template-columns:repeat(6,1fr)}.fg{grid-template-columns:1fr 1fr}.fgd{grid-template-columns:2fr 1fr 1fr}.hero{padding:96px 0 84px}}
+</style>
+</head>
+<body>
+<header><div class="w hd">
+  <a class="brand" href="#top"><span class="lg"><img src="user-logo.png" alt="Jogipal logo"></span><span><b>যোগীপাল</b><small>সমাজকল্যাণ ফাউন্ডেশন</small></span></a>
+  <nav class="dk"><a href="#services">সেবা</a><a href="#programs">কার্যক্রম</a><a href="#news">নোটিশ</a><a href="#join">স্বেচ্ছাসেবক</a><a href="#contact">যোগাযোগ</a></nav>
+  <button class="btn" onclick="openDonate()">🤲 অনুদান দিন</button>
+</div></header>
+
+<div class="hero" id="top"><div class="w">
+  <span class="chip">🌿 ডিজিটাল সমাজসেবা পোর্টাল</span>
+  <h1><em style="font-style:normal" id="h1">মানুষের পাশে,</em><span id="hl">সমাজের কল্যাণে</span></h1>
+  <p id="sub"></p>
+  <div class="sb"><input id="q" placeholder="সেবা, তথ্য বা নোটিশ খুঁজুন..." oninput="doSearch()"><button class="btn" onclick="doSearch()">খুঁজুন</button></div>
+</div></div>
+
+<div class="w"><div class="nb" onclick="location.hash='#join'"><b>📢 বিজ্ঞপ্তি</b><span id="bar"></span><span style="margin-left:auto">›</span></div></div>
+
+<section id="services" style="padding-top:20px"><div class="w">
+  <div class="eb">সেবা পোর্টাল</div><h2>আমাদের সেবাসমূহ</h2>
+  <div class="sg" id="sv"></div>
+</div></section>
+
+<section class="alt" id="programs"><div class="w">
+  <div class="eb">🌿 উদ্যোগ</div><h2>আমাদের কার্যক্রম</h2>
+  <div class="pg" id="pr"></div>
+</div></section>
+
+<section id="news"><div class="w">
+  <div class="eb">আপডেট</div><h2>খবর ও নোটিশ</h2>
+  <div class="nl" id="nw"></div>
+</div></section>
+
+<section><div class="w"><div class="cta">
+  <div style="font-size:34px">🤲</div>
+  <h3 id="ct"></h3><p id="cx"></p>
+  <button class="btn" onclick="openDonate()">অনুদানের নির্দেশিকা →</button>
+</div></div></section>
+
+<section class="alt" id="join"><div class="w">
+  <div class="eb">যুক্ত হোন</div><h2>স্বেচ্ছাসেবক হিসেবে আবেদন</h2>
+  <form onsubmit="return sendVol(event)">
+    <div class="fg"><input id="vn" placeholder="আপনার নাম *" required maxlength="80"><input id="vp" type="tel" placeholder="মোবাইল নম্বর *" required maxlength="20"></div>
+    <div class="fg"><input id="va" placeholder="ঠিকানা" maxlength="150"><select id="vi"></select></div>
+    <textarea id="vm" rows="3" placeholder="আপনার বার্তা (ঐচ্ছিক)" maxlength="500"></textarea>
+    <button class="btn" id="vb" style="justify-self:start">আবেদন জমা দিন</button>
+  </form>
+</div></section>
+
+<footer id="contact"><div class="w">
+  <div class="fgd">
+    <div><div style="display:flex;gap:12px;align-items:center;margin-bottom:10px"><span class="lg" style="background:#fff"><img src="user-logo.png" alt=""></span><div><h4 style="margin:0;font-size:24px">যোগীপাল</h4><small>সমাজকল্যাণ ফাউন্ডেশন · Jogipal Somazkollan Foundation</small></div></div><p>মানুষের পাশে, সমাজের কল্যাণে।</p></div>
+    <div><h4>যোগাযোগ</h4><p>📍 <span id="ad"></span></p></div>
+    <div><h4>প্রয়োজনীয় যোগাযোগ</h4><p>📞 জাতীয় জরুরি সেবা — <span id="ph"></span></p><p>🩺 স্বাস্থ্য বাতায়ন — <span id="he"></span></p></div>
+  </div>
+  <div class="cp">© ২০২৬ Jogipal Somazkollan Foundation. সর্বস্বত্ব সংরক্ষিত।</div>
+</div></footer>
+
+<div class="md" id="md" onclick="if(event.target===this)closeM()"><div class="mb"><small id="mc" style="color:var(--mu)"></small><h3 id="mt"></h3><p id="mp"></p><button class="btn" style="margin-top:16px" onclick="closeM()">বন্ধ করুন</button></div></div>
+<div class="ts" id="ts"></div>
+
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database-compat.js"></script>
+<script src="user-config.js"></script>
+<script>
+const $=id=>document.getElementById(id);
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const arr=x=>!x?[]:Array.isArray(x)?x.filter(Boolean):Object.values(x);
+let S=DEFAULTS.settings,N=[],P=[];
+function render(d){
+  d=d||{};
+  S={...DEFAULTS.settings,...(d.settings||{})};
+  const sv=arr(d.services).length?arr(d.services):DEFAULTS.services;
+  P=arr(d.programs).length?arr(d.programs):DEFAULTS.programs;
+  N=arr(d.notices).length?arr(d.notices):DEFAULTS.notices;
+  $('h1').textContent=S.title;$('hl').textContent=S.hl;$('sub').textContent=S.sub;$('bar').textContent=S.bar;
+  if(S.heroImg)document.querySelector('.hero').style.setProperty('--hi','url("'+S.heroImg.replace(/["()]/g,'')+'")');
+  $('ct').textContent=S.ctaTitle;$('cx').textContent=S.ctaText;
+  $('ad').textContent=S.address;$('ph').textContent=S.phone;$('he').textContent=S.health;
+  $('sv').innerHTML=sv.map(s=>`<div class="card" data-s><div class="ic" style="background:${esc(s.color)}22">${esc(s.icon)}</div><b>${esc(s.title)}</b><small>${esc(s.sub)}</small></div>`).join('');
+  $('pr').innerHTML=P.map((p,i)=>`<div class="pc" data-s onclick="openItem(P[${i}])"><div class="pi" ${p.img?`style="background-image:url('${esc(p.img).replace(/'/g,'%27')}')"`:''}></div><div class="b"><small>${esc(p.cat)}</small><h3>${esc(p.title)}</h3></div></div>`).join('');
+  $('nw').innerHTML=N.map((n,i)=>`<div class="nt" data-s onclick="openItem(N[${i}])"><i>🔔</i><div style="flex:1"><small>${esc(n.cat)}</small><b>${esc(n.title)}</b></div><span>›</span></div>`).join('');
+  $('vi').innerHTML='<option value="">আগ্রহের বিষয় (ঐচ্ছিক)</option>'+sv.map(s=>`<option>${esc(s.title)}</option>`).join('');
+  doSearch();
+}
+function doSearch(){const q=$('q').value.trim().toLowerCase();document.querySelectorAll('[data-s]').forEach(e=>e.style.display=!q||e.textContent.toLowerCase().includes(q)?'':'none')}
+function openItem(o){$('mc').textContent=o.cat||'';$('mt').textContent=o.title||'';$('mp').textContent=o.text||'';$('md').classList.add('on')}
+function openDonate(){openItem({cat:'অনুদান',title:S.ctaTitle,text:S.donate})}
+function closeM(){$('md').classList.remove('on')}
+function toast(m){const t=$('ts');t.textContent=m;t.style.display='block';setTimeout(()=>t.style.display='none',3200)}
+render();
+let db=null;
+try{
+  firebase.initializeApp(FB_CONFIG);db=firebase.database();
+  db.ref(DB_ROOT).on('value',s=>render(s.val()),e=>console.warn('Firebase:',e.message));
+}catch(e){console.warn(e)}
+function sendVol(e){
+  e.preventDefault();
+  if(!db)return toast('সংযোগ পাওয়া যায়নি, পরে চেষ্টা করুন'),false;
+  const last=+localStorage.getItem('jg_last')||0;
+  if(Date.now()-last<30000)return toast('অনুগ্রহ করে কিছুক্ষণ অপেক্ষা করুন'),false;
+  const b=$('vb');b.disabled=true;
+  db.ref(DB_ROOT+'/volunteers').push({name:$('vn').value.trim(),phone:$('vp').value.trim(),address:$('va').value.trim(),interest:$('vi').value,msg:$('vm').value.trim(),ts:firebase.database.ServerValue.TIMESTAMP})
+   .then(()=>{localStorage.setItem('jg_last',Date.now());e.target.reset();toast('✅ আপনার আবেদন জমা হয়েছে। ধন্যবাদ!')})
+   .catch(()=>toast('জমা দেওয়া যায়নি, আবার চেষ্টা করুন'))
+   .finally(()=>b.disabled=false);
+  return false;
+}
+</script>
+</body>
+</html>
